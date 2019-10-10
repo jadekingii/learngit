@@ -1,0 +1,191 @@
+
+
+.main-content-tabs
+{
+    position: relative; 
+    right: 0;
+    left: 0;
+    z-index: 100;
+    display: block;
+    height: 49px;
+    line-height: 32px;
+    background-color: #rgba(255,255,255,0.9);
+    border-bottom: solid 1px #e4eaec;
+    padding: 0px 20px;
+}
+
+.page-content > .tab-pane
+{
+    position: relative;    
+}
+.main-content-tabs > .contabs-scroll
+{
+  position: relative;
+  overflow:hidden;   
+  width: calc(100% - 35px);
+  height: 32px;
+  top:17px;
+
+}
+.main-content-tabs > .contabs-scroll > .con-tabs
+{
+    position:relative;
+    width:auto;    
+    margin-left:0px;   
+}
+.main-content-tabs >  .contabs-scroll > .con-tabs>li
+{
+    float:left;   
+    width: auto;   
+    margin:0 3px 0 0;
+    border-top: solid 1px #f1f1f1;
+    border-right: solid 1px #f1f1f1;
+    border-left: solid 1px #f1f1f1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgba(246,246,246,1);
+   
+}
+
+.main-content-tabs >  .contabs-scroll > .con-tabs>li.active
+{
+    background-color: rgba(255,184,66,1);
+    color: #ffffff;
+}
+.main-content-tabs >  .contabs-scroll > .con-tabs>li.active > a
+{    
+    color: #ffffff;
+}
+.main-content-tabs >  .contabs-scroll > .con-tabs>li.active > a >.ace-icon
+{    
+    color: #ffffff;
+}
+
+.main-content-tabs > .contabs-scroll > .con-tabs>li>a
+{
+    position: relative;
+    display: block;
+    padding: 0 40px 0 31px;
+    overflow: hidden;
+    color: #828282;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size:12px;
+    font-family: "Microsoft YaHei";
+
+}
+.main-content-tabs > .contabs-scroll > .con-tabs>li>a:hover,
+.main-content-tabs > .contabs-scroll > .con-tabs>li>a:focus
+{
+   background: rgba(255,184,66,0.2);
+   outline:none;
+}
+
+.main-content-tabs > .contabs-scroll > .con-tabs>li>a>.ace-icon
+{
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    display: inline-block;
+    font-size: 12px;
+    color: #ababab
+}
+.main-content-tabs > .contabs-scroll > .con-tabs>li>a>.ace-icon:hover
+{
+   color:#828282
+}
+
+.btn-group > .user-menu > li > a{
+    padding:5px 12px;
+    font-size: 12px;
+    color: #828282;
+    font-family: "Microsoft YaHei";
+}
+.btn-group > .user-menu > li > a > .fa-refresh,
+.btn-group > .user-menu > li > a > .fa-power-off,
+.btn-group > .user-menu > li > a > .fa-list-ul {   
+    color: #ffb643;   
+}
+.btn-group > .user-menu >li.menu-page > a > .fa-close{
+    float:right;  
+    color: #3d95d5
+}
+.btn-group > .user-menu  > li:hover > a,
+.btn-group > .user-menu  > li:hover > a >.ace-icon,
+.btn-group > .user-menu  > li.menu-page:hover > a >.fa-close
+{
+    background:#3d95d5;
+    color:#ffffff ;
+}
+.main-content-tabs .notAcebtn .icon {
+    width: 1em;
+    margin: 0 3px;
+    line-height: inherit;
+    text-align: center;
+    margin: -13px 0 0;
+}
+
+.main-content-tabs > .btn-group >.btn-outline{
+    height: 32px;   
+    background-color: rgba(246,246,246,1);
+    border-color: #ababab;
+    width: 34px;     
+    font-size: 15px;
+    margin:17px 0px 0px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.main-content-tabs > .btn-group >.btn-outline:focus,
+.main-content-tabs > .btn-group >.btn-outline:active {
+     
+    background-color: rgba(255,184,66,1);
+    
+}
+.main-content-tabs > .btn-group > .dropdown-menu.dropdown-close{
+    right:0px;
+    width: 187px;
+}
+
+.main-content-tabs > .btn-group >.right-space{
+    height: 49px;    
+    background-color: rgba(255,184,66,0);
+    padding: 0 20px 0 10px;
+    float: right;
+    
+}
+
+.main-content-tabs .mybtn {
+    padding: 8px;
+    line-height: 4em;
+    font-size: 15px;
+}
+
+.page-container
+{
+    width：100%;
+}
+.page-content .page-frame
+{
+    position: relative;
+    display: none;
+    width: 100%;  
+    overflow-x: hidden;
+    height: 100%;
+}
+.page-content .page-frame.active {
+    display: block;
+}
+
+.notAcebtn{
+    height: 49px;
+    background: #e4eaec;    
+    border: none;   
+    border-radius: 0px;
+    outline: none;   
+    border-color: transparent;  
+    box-shadow:none;
+}
+
+
